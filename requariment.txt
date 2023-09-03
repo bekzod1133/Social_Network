@@ -35,7 +35,6 @@ PyYAML
 referencing
 requests
 requests-oauthlib
-rpds-py
 sniffio
 sqlparse
 typing_extensions
