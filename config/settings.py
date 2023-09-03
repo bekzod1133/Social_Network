@@ -23,7 +23,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 
 ALLOWED_HOSTS = []
 
-DEBUG = os.environ.get("DEBUG", cast=bool)
+DEBUG = os.environ.get("DEBUG")
 # Application definition
 
 INSTALLED_APPS = [
