@@ -18,12 +18,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 
 # SECURITY WARNING: don't run with debug turned on in production!
-SECRET_KEY = os.environ("SECRET_KEY")
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 
 ALLOWED_HOSTS = []
 
-DEBUG = os.environ("DEBUG", cast=bool)
+DEBUG = os.environ.get("DEBUG", cast=bool)
 # Application definition
 
 INSTALLED_APPS = [
